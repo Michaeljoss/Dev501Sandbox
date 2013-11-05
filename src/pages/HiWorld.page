@@ -1,0 +1,7 @@
+<apex:page controller="Mycontroller">
+  <!-- Begin Default Content REMOVE THIS -->
+      <apex:pageBlock ><h1>Congratulations</h1>
+        </apex:pageBlock>
+    This is your new Page: {!MyPageName} Editscreen 
+      <!-- End Default Content REMOVE THIS -->
+</apex:page>

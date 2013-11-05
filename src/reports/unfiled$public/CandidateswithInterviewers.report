@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Candidate__c.Job_Applications__r$Position__c</field>
+    </columns>
+    <columns>
+        <field>Candidate__c.Job_Applications__r$Name</field>
+    </columns>
+    <columns>
+        <field>Candidate__c$First_Name__c</field>
+    </columns>
+    <columns>
+        <field>Candidate__c$Last_Name__c</field>
+    </columns>
+    <columns>
+        <field>Candidate__c.Job_Applications__r$Average_Review_Score__c</field>
+    </columns>
+    <columns>
+        <field>Candidate__c.Job_Applications__r$Total_Reviews__c</field>
+    </columns>
+    <columns>
+        <field>Candidate__c.Job_Applications__r.Reviews__r$Name</field>
+    </columns>
+    <description>Who are the employees that interviewed each candidate?</description>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Candidate__c$Name</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Candidates with Interviewers</name>
+    <reportType>Candidates_with_Interviewers__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>Candidate__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

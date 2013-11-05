@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Candidate__c$Name</field>
+    </columns>
+    <columns>
+        <field>Candidate__c$Last_Name__c</field>
+    </columns>
+    <columns>
+        <field>Candidate__c$First_Name__c</field>
+    </columns>
+    <columns>
+        <field>Candidate__c$Education__c</field>
+    </columns>
+    <columns>
+        <field>Candidate__c$Email__c</field>
+    </columns>
+    <columns>
+        <field>Candidate__c$Gender__c</field>
+    </columns>
+    <columns>
+        <field>Candidate__c$Mobile__c</field>
+    </columns>
+    <columns>
+        <field>Candidate__c$Phone__c</field>
+    </columns>
+    <columns>
+        <field>Candidate__c$Street_Address_1__c</field>
+    </columns>
+    <columns>
+        <field>Candidate__c$Street_Address_2__c</field>
+    </columns>
+    <columns>
+        <field>Candidate__c$City__c</field>
+    </columns>
+    <columns>
+        <field>Candidate__c$State_Province__c</field>
+    </columns>
+    <columns>
+        <field>Candidate__c$Zip_Postal_Code__c</field>
+    </columns>
+    <columns>
+        <field>Candidate__c$US_Citizen__c</field>
+    </columns>
+    <description>Shows a list of all candidates.</description>
+    <format>Tabular</format>
+    <name>All Candidates 2</name>
+    <reportType>Candidates_Modified_UI__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+</Report>

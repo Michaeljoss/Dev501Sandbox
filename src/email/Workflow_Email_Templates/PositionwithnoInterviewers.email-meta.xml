@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to Position Hiring Manager when there are no Interviewers</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Position with no Interviewers</name>
+    <style>none</style>
+    <subject>Position Needs Interviewers</subject>
+    <type>text</type>
+</EmailTemplate>

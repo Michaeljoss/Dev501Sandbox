@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Position__c.Type__c</field>
+    </columns>
+    <columns>
+        <field>Position__c.Hiring_Manager__c</field>
+    </columns>
+    <columns>
+        <field>Position__c.Date_Opened__c</field>
+    </columns>
+    <columns>
+        <field>Position__c.Status__c</field>
+    </columns>
+    <description>What positions are currently open or temporary?</description>
+    <filter>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <column>Position__c.Status__c</column>
+            <operator>equals</operator>
+            <value>Open</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Position__c.Type__c</column>
+            <operator>equals</operator>
+            <value>Temp</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Position__c.Department__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Open and Temp Positions by Dept.</name>
+    <reportType>CustomEntity$Position__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>Position__c.Date_Closed__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

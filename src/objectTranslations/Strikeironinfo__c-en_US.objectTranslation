@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>StrikeIronInfo</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>StrikeIronInfos</value>
+    </caseValues>
+    <fields>
+        <help><!-- Only one record should be active at a time --></help>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+    </fields>
+    <fields>
+        <help><!-- the password registered with StrikeIron --></help>
+        <label><!-- Password --></label>
+        <name>Password__c</name>
+    </fields>
+    <fields>
+        <help><!-- the email address registered with StrikeIron --></help>
+        <label><!-- User ID --></label>
+        <name>userID__c</name>
+    </fields>
+    <layouts>
+        <layout>Strikeironinfo Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

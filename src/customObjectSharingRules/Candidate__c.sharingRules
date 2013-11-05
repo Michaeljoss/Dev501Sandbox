@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectSharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <ownerRules>
+        <fullName>VPHumanResourcesD79011204</fullName>
+        <sharedTo>
+            <roleAndSubordinates>VPHumanResources</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <allInternalUsers></allInternalUsers>
+        </sharedFrom>
+        <accessLevel>Edit</accessLevel>
+        <name>VP Human ResourcesD</name>
+    </ownerRules>
+</CustomObjectSharingRules>

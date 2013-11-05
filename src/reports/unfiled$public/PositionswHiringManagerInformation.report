@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Position__c$Name</field>
+    </columns>
+    <columns>
+        <field>Position__c$Department__c</field>
+    </columns>
+    <columns>
+        <field>Position__c$Hiring_Manager__c</field>
+    </columns>
+    <columns>
+        <field>Position__c$Hiring_Manager__c.Email</field>
+    </columns>
+    <columns>
+        <field>Position__c$Hiring_Manager__c.Phone</field>
+    </columns>
+    <columns>
+        <field>Position__c$Hiring_Manager__c.UserRole</field>
+    </columns>
+    <description>Shows a list of all positions with contact information for the related hiring manager.</description>
+    <format>Tabular</format>
+    <name>Positions w/ Hiring Manager Information</name>
+    <reportType>Positions_Modified_UI__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <timeFrameFilter>
+        <dateColumn>Position__c$Date_Closed__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

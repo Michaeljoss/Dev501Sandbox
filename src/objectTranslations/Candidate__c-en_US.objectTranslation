@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Candidate</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Candidates</value>
+    </caseValues>
+    <fields>
+        <help><!-- If a US address is invalid, the problem is recorded in this field. --></help>
+        <label><!-- Address Error --></label>
+        <name>Address_Error__c</name>
+    </fields>
+    <fields>
+        <help><!-- this field should only be set by the CandidateAddressValidation trigger and Async callout method it uses.  when this field is true that means the record is being updated by the Async method.  when it is false it means a user updated the record. --></help>
+        <label><!-- AsyncValidationFlag --></label>
+        <name>AsyncValidationFlag__c</name>
+    </fields>
+    <fields>
+        <label><!-- Batch Load Item --></label>
+        <name>Batch_Load_Item__c</name>
+    </fields>
+    <fields>
+        <label><!-- City --></label>
+        <name>City__c</name>
+    </fields>
+    <fields>
+        <help><!-- Identifies an area within the US served by a member of the House or Senate. If an Army/Air Force or fleet post office is used for this address, this field will be blank. If only one member of Congress within a state, the code will be AL (at large). --></help>
+        <label><!-- Congress District --></label>
+        <name>Congress_District__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>Country__c</name>
+    </fields>
+    <fields>
+        <help><!-- US County --></help>
+        <label><!-- County --></label>
+        <name>County__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Employer --></label>
+        <name>Current_Employer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Currently Employed? --></label>
+        <name>Currently_Employed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Drivers License Number --></label>
+        <name>Drivers_License_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Education --></label>
+        <name>Education__c</name>
+        <picklistValues>
+            <masterLabel>BA/BS</masterLabel>
+            <translation><!-- BA/BS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GED/HS Diploma</masterLabel>
+            <translation><!-- GED/HS Diploma --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JD</masterLabel>
+            <translation><!-- JD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MA/MS/MBA</masterLabel>
+            <translation><!-- MA/MS/MBA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MD</masterLabel>
+            <translation><!-- MD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PhD</masterLabel>
+            <translation><!-- PhD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Post Doc</masterLabel>
+            <translation><!-- Post Doc --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fax --></label>
+        <name>Fax__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Name --></label>
+        <name>First_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gender --></label>
+        <name>Gender__c</name>
+        <picklistValues>
+            <masterLabel>Female</masterLabel>
+            <translation><!-- Female --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Male</masterLabel>
+            <translation><!-- Male --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Last Name --></label>
+        <name>Last_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Latitude --></label>
+        <name>Latitude__c</name>
+    </fields>
+    <fields>
+        <label><!-- Legacy Candidate Number --></label>
+        <name>Legacy_Candidate_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Between 180 and -180 --></help>
+        <label><!-- Longitude --></label>
+        <name>Longitude__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mobile --></label>
+        <name>Mobile__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone --></label>
+        <name>Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Picture ID --></label>
+        <name>Picture_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Picture Link --></label>
+        <name>Picture_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Picture URL --></label>
+        <name>Picture_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Social Security Number --></label>
+        <name>Social_Security_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- State/Province --></label>
+        <name>State_Province__c</name>
+    </fields>
+    <fields>
+        <label><!-- Street Address 1 --></label>
+        <name>Street_Address_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Street Address 2 --></label>
+        <name>Street_Address_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tags --></label>
+        <name>Tags__c</name>
+    </fields>
+    <fields>
+        <label><!-- US Citizen --></label>
+        <name>US_Citizen__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unique key --></label>
+        <name>Unique_key__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is set automatically by a trigger for US addresses.  If the address is valid then the ZipCode is updated automatically to the Zip+4 format and the geocode information is stored. --></help>
+        <label><!-- Valid US Address --></label>
+        <name>Valid_US_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Visa Required --></label>
+        <name>Visa_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Years of Experience --></label>
+        <name>Years_of_Experience__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zip/Postal Code --></label>
+        <name>Zip_Postal_Code__c</name>
+    </fields>
+    <layouts>
+        <layout>Candidate Layout</layout>
+        <sections>
+            <label><!-- Additional Details --></label>
+            <section>Additional Details</section>
+        </sections>
+        <sections>
+            <label><!-- Batch Load Parameters --></label>
+            <section>Batch Load Parameters</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Employment Information --></label>
+            <section>Employment Information</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- SSN must be in this format: 999-99-9999. --></errorMessage>
+        <name>Valid_SSN_Format</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Zip code must be in 99999 or 99999-9999 format. --></errorMessage>
+        <name>Zip_code_must_be_Valid_US_Postal_Code</name>
+    </validationRules>
+</CustomObjectTranslation>

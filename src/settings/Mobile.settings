@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MobileSettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <chatterMobile>
+        <androidAuthorized>true</androidAuthorized>
+        <blackberryAuthorized>true</blackberryAuthorized>
+        <enableChatterMobile>true</enableChatterMobile>
+        <enablePushNotifications>true</enablePushNotifications>
+        <iPadAuthorized>true</iPadAuthorized>
+        <iPhoneAuthorized>true</iPhoneAuthorized>
+        <sessionTimeout>Never</sessionTimeout>
+    </chatterMobile>
+    <dashboardMobile>
+        <enableDashboardIPadApp>true</enableDashboardIPadApp>
+    </dashboardMobile>
+    <salesforceMobile>
+        <enableMobileLite>false</enableMobileLite>
+        <enableUserToDeviceLinking>false</enableUserToDeviceLinking>
+    </salesforceMobile>
+    <touchMobile>
+        <enableTouchAppIPad>true</enableTouchAppIPad>
+        <enableTouchAppIPhone>true</enableTouchAppIPhone>
+        <enableTouchBrowserIPad>false</enableTouchBrowserIPad>
+        <enableVisualforceInTouch>false</enableVisualforceInTouch>
+    </touchMobile>
+</MobileSettings>

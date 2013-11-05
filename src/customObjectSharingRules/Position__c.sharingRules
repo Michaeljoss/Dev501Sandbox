@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectSharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <criteriaBasedRules>
+        <fullName>PositionSharingRule</fullName>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+        <criteriaItems>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Open</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Sub_Status__c</field>
+            <operation>equals</operation>
+            <value>Approved</value>
+        </criteriaItems>
+        <accessLevel>Read</accessLevel>
+        <name>PositionSharingRule</name>
+    </criteriaBasedRules>
+    <ownerRules>
+        <fullName>VPHumanResourcesD</fullName>
+        <sharedTo>
+            <roleAndSubordinates>VPHumanResources</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <allInternalUsers></allInternalUsers>
+        </sharedFrom>
+        <accessLevel>Edit</accessLevel>
+        <name>VP Human ResourcesD</name>
+    </ownerRules>
+</CustomObjectSharingRules>
